@@ -1,0 +1,70 @@
+<div class="detail1">
+            <div class="detail2" style="background-color:#cdb4db;">
+                <img src="C:\Users\User\Downloads\download.jpg" width="300px" height="200px">
+                        <div class="detail3" style="background-color:#cdb4db;">
+                            <h1 style="color:black;">Finland</h1>
+                            <p style="color:black;">Finland is located in European Country.</p>
+                        </div>
+                    
+            </div></div>
+            <div class="detail1">
+                <div class="detail2" style="background-color:#cdb4db;">
+                    <img src="C:\Users\User\Downloads\swedon.jpg" width="300px" height="200px">
+                        <div class="detail3" style="background-color:#cdb4db;">
+                            <h1 style="color:black;">Abisko, Swedon</h1>
+                            <p style="color:black;">Swedon is located in European Country.</p>
+                        </div>
+                    
+                
+            </div></div>
+            <div class="summa">
+                <h1>have a nice day
+                </h1>
+            </div>
+            <div class="detail1">
+                <div class="detail2" style="background-color:#cdb4db;">
+    
+                    
+
+                        <img src="C:\Users\User\Downloads\iceland.jpg" width="300px" height="200px">
+                        <div class="detail3" style="background-color:#cdb4db;">
+                            <h1 style="color:black">Iceland</h1>
+                            <p style="color: black">Iceland is located in European Country.</p>
+                        </div>
+                    
+                
+            </div>
+
+        </div>
+        </div>
+        <div class="details">
+        <div class="detail-1">
+            <div class="detail-2" style="background-color:#cdb4db;">
+                <img src="C:\Users\User\Downloads\swedon.jpg" width="300px" height="200px">
+                    <div class="detail-3" style="background-color:#cdb4db;">
+                        <h1 style="color:black;">Abisko, Swedon</h1>
+                        <p style="color:black;">Swedon is located in European Country.</p>
+                    </div>
+                
+            
+        </div></div>
+        <div class="detail-1">
+            <div class="detail-2" style="background-color:#cdb4db;">
+                <img src="C:\Users\User\Downloads\swedon.jpg" width="300px" height="200px">
+                    <div class="detail-3" style="background-color:#cdb4db;">
+                        <h1 style="color:black;">Abisko, Swedon</h1>
+                        <p style="color:black;">Swedon is located in European Country.</p>
+                    </div>
+                
+            
+        </div></div>
+        <div class="detail-1">
+            <div class="detail-2" style="background-color:#cdb4db;">
+                <img src="C:\Users\User\Downloads\swedon.jpg" width="300px" height="200px">
+                    <div class="detail-3" style="background-color:#cdb4db;">
+                        <h1 style="color:black;">Abisko, Swedon</h1>
+                        <p style="color:black;">Swedon is located in European Country.</p>
+                    </div>
+                
+            
+        </div></div></div>

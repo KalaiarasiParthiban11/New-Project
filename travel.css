@@ -1,0 +1,427 @@
+*{
+    margin:0;
+    padding: 0%;
+    /* font-family:Papyrus, fantasy;; */
+    /* font-family: "satisfy",cursive; */
+
+}.navbar{
+    background-color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0%;
+    width: 100%;
+    margin-left:0%;
+    padding: 15px 25px;
+}
+.logo{
+    color:black;
+    gap: 5px;
+    font-weight: bolder;
+    font-size: 30px;
+    /* margin-left:  5%; */
+    
+}
+.logo{
+    background-color: cadetblue;
+    width: 100%;
+}
+.u{
+    display: inline;
+    cursor: pointer;
+
+    margin-left: 35%;
+}
+.l{
+    display: inline;
+    color: white;
+    padding: 15px 25px;
+    list-style: none;
+    font-size: 20px;
+
+    justify-content: space-between;
+}
+.menu-toggle{
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+.menu-toggle span{
+    width: 30px;
+    height: 3px;
+    background-color: white;
+    margin: 3px 0;
+}
+
+.a{
+    text-decoration: none;
+    color: white;
+    
+}
+.a:hover{
+    color: blueviolet;
+    
+    
+}
+.l:hover{
+    width: 90px;
+    height: 90px;
+    color:#23001e;
+    background-color: white;
+    font-size: 20px;
+}
+.img1{
+    margin-left: 0%;
+    margin-top: 0%;
+    border-color: white;
+    border-style:groove;
+    border-radius: 10%;
+    
+    
+    height: 40px;
+    margin-right: 0%;
+}
+.lo{
+    margin-right: 9%;
+}
+
+.span1{
+    
+    background: linear-gradient(to top,purple,black);
+    -webkit-background-clip: text ;
+    -webkit-text-fill-color: transparent;
+}
+.event{
+    /* background-color:thistle; */
+    margin: 0%;
+    background-image: url("C:/Users/User/Downloads/nature-bridge-sky-city-wallpaper-preview.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    
+
+}
+.event1{
+    justify-content: center;
+}
+.c{
+    margin: 0%;
+    background-color: #7BA5D5;
+    margin-top: 0%;
+    
+  
+}
+
+.navbar .div{
+
+    background-image: url('C:/Users/User/Pictures/Screenshots/bangalore.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+input{
+    padding: 7px;
+    padding-left: 9%;
+}
+
+.div{
+    margin: 0%;
+    background-image: url('C:/Users/User/Pictures/Screenshots/bangalore.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    
+    
+}
+.div1{
+    margin-top: 0%;
+}
+.p1{
+    padding: 3%;
+}
+.p2{
+    padding: 10px;
+}
+.p3{
+    /* background: linear-gradient(white,yellow); */
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  background: -webkit-linear-gradient(white,yellow);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.b{
+    width: 250px;
+    font-weight: bold;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 15px;
+    color: whitesmoke;
+    background: linear-gradient(to right,purple,black);
+}
+
+.card{
+    margin-top: 5%;
+    width: 300px;
+    height: 200px;
+    display: inline-block;
+    margin:3%;
+    padding: 10px 20px;
+    background-color: white;
+    box-shadow: 3px;
+    transition: transform .2s;
+    
+}
+.card:hover{
+    /* -ms-transform: scale(1.2); IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2);
+}
+
+.container{
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+    margin-bottom: 3%;
+    
+}
+
+.div3{
+    background-color:#7BA5D5;
+}
+.div4{
+    margin: 0%;
+    margin-top: 0%;
+    
+}
+.b1{
+    width: 250px;
+    height: 50px;
+    border-radius: 7px;
+    background-color: #23001e;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+.bt1{
+    margin-left: 40%;
+    width: 200px;
+    height: 60px;
+    background-color: #23001e;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    
+    
+}
+.span2{
+    color: black;
+    font-weight: bold;
+
+
+}
+.bt{
+    width: 250px;
+    height: 60px;
+    border-radius: 5%;
+    background-color:#23001e;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    
+}
+.form{
+    background-image: url('C:/Users/User/Pictures/Screenshots/bangalore.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.form1{
+    margin: 0px;
+    
+    
+}
+.txt{
+    width: 300px;
+    height: 70px;
+    display: block;
+}
+.e{
+    margin: 0%;
+    
+}
+.end{
+    float: left;
+    margin-left: 2px;
+}
+.ii{
+    width: 267px;
+    height: 150px;
+}
+.foot{
+    background-color:#957A8D;
+    height: 600px;
+    
+}
+.end1{
+    float: left;
+    margin: 10%;
+    margin-top: 5%;
+    color: white;
+}
+.end-1{
+    float: left;
+    margin: 10%;
+    margin-left: 5%;
+    margin-top: 5%;
+    color: white;
+}
+.end2{
+    float: left;
+    margin: 10%;
+    margin-top: 5%;
+    color: white;
+}
+#mydate{
+    padding: 10px 20px;
+    padding-left: 9%;
+    padding-right: 5%;
+
+}
+#city{
+    padding: 10px 20px;
+    padding-left: 9%;
+    padding-right: 6%;
+    
+}
+.nor-lig{
+    height: 400px;
+    background-color:#EFCB59;
+}
+.norlig{
+    width: 200px;
+    height: 60px;
+    margin-left: 43%;
+    margin-top: 10%;
+    border-radius: 5px;
+    background-color: #23001e;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.norimg{
+    float: left;
+}
+.norcont{
+    float: left;
+    width: 450px;
+}
+
+
+
+
+@media screen and (max-width:600px) {
+    /* .navbar{
+        display: none;
+        flex-direction: column;
+        position: absolute;
+    } */
+.menu-toggle{
+    display: flex;
+    padding-left: 35%;
+}
+.u{
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    width: 100%;
+
+}
+.u.active{
+    display: flex;
+}
+.card{
+    width: 150px;
+    height: 80px;
+    margin-left: 30%;
+}
+.container{
+    padding: 0px;
+}
+.p3{
+    font-size: 15px;
+}
+.i{
+    width: 113px;
+    height: 75px;
+}
+.end1{
+    margin: 3%;
+    margin-top: 3%;
+    float: left;
+}
+.end2{
+    margin: 3%;
+    margin-top: 3%;
+    float: left;
+}
+.f{
+    font-size: 12px;
+}
+.b{
+    width: 200px;
+    height: 45px;
+
+}
+.b1{
+    width: 200px;
+    height: 45px;
+}
+.med-h1{
+    font-size: 10px;
+    
+}
+.ii{
+        width: 110px;
+        height: 100px;
+        
+}
+.end-1{
+    margin-right: 20px;
+    font-size: 15px;
+}
+.end2{
+    margin-top: 2%;
+    
+}
+.norimg{
+    width: 50px;
+    height: 50px;
+}
+.norcont{
+    font-size: 15px;
+    color: white;
+}
+.nor-img{
+    width: 555px;
+}
+.i-i{
+    width: 105px;
+    height: 100px;
+    
+}
+.i-1{
+    width: 100px;
+    height: 100px;
+}
+.txt{
+    margin-left: 1%;
+    width: 230px;
+}
+
+
+}
+    
+
+    
