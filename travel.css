@@ -59,10 +59,9 @@
     color: white;
     
 }
-.a:hover{
+.a:hover
+{
     color: blueviolet;
-    
-    
 }
 .l:hover{
     width: 90px;
