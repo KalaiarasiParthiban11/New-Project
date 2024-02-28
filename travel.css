@@ -94,7 +94,7 @@
 .event{
     /* background-color:thistle; */
     margin: 0%;
-    background-image: url("C:/Users/User/Downloads/nature-bridge-sky-city-wallpaper-preview.jpg");
+    background-image: url('images/nature-bridge-sky-city-wallpaper-preview.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     height: 300px;
