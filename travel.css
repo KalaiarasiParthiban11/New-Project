@@ -253,6 +253,10 @@ input{
     float: left;
     margin-left: 2px;
 }
+.imgsiz{
+    width: 267px;
+    height: 150px;
+}
 .i.i{
     width: 267px;
     height: 150px;
