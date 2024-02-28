@@ -253,6 +253,14 @@ input{
     float: left;
     margin-left: 2px;
 }
+.i.i{
+    width: 267px;
+    height: 150px;
+}
+.size{
+    width: 267px;
+    height: 150px;
+}
 .ii{
     width: 267px;
     height: 150px;
