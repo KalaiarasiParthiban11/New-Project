@@ -352,7 +352,7 @@ input{
         width: 100%;
         height: 400px;
         margin-left:0%;
-        padding: 15px 25px;
+        padding: 25px 35px;
     
     
 }    
@@ -383,8 +383,8 @@ input{
     justify-content: space-between;
 }
 .l:hover{
-    width: 20px;
-    height: 20px;
+    width: none;
+    height: none;
     color:#23001e;
     background-color: white;
     font-size: 10px;
