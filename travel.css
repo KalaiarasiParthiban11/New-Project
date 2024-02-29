@@ -372,6 +372,15 @@ input{
     margin-right: 5%;
 
 }
+.l{
+    display: inline;
+    color: white;
+    padding: 15px 25px;
+    list-style: none;
+    font-size: 20px;
+
+    justify-content: space-between;
+}
 .u.active{
     display: flex;
 }
