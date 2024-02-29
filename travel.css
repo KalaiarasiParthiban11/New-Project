@@ -340,7 +340,10 @@ input{
 } 
 .l{
     display: none;
-}   
+} 
+.menu-toggle{
+    display: flex;
+}  
 
 
 }
