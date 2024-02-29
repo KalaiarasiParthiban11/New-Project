@@ -339,6 +339,10 @@ input{
         flex-direction: column;
         position: absolute;
     } */
+.navbar
+{
+    padding: 25px 35px;
+}    
 .menu-toggle{
     display: flex;
     /* padding-left: 35%; */
