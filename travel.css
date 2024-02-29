@@ -389,9 +389,9 @@ input{
     background-color: white;
     font-size: 10px;
 }
-.u.active{
+/* .u.active{
     display: flex;
-}
+} */
 .card{
     width: 150px;
     height: 80px;
