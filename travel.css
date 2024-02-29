@@ -439,6 +439,10 @@ input{
         height: 100px;
         
 }
+.size{
+    width: 80px;
+    height: 80px;
+}
 .end-1{
     margin-right: 20px;
     font-size: 15px;
