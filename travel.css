@@ -356,7 +356,8 @@ input{
     position: absolute;
     top: 60px;
     width: 100%;
-    font-size: 20px;
+    font-size: 40px;
+    margin-right: 5%;
 
 }
 .u.active{
