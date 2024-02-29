@@ -365,12 +365,12 @@ input{
 }
 .u{
     display: none;
-    flex-direction: column;
+    /* flex-direction: column;
     position: absolute;
     top: 30px;
     width: 100%;
     font-size: 20px;
-    margin-right: 5%;
+    margin-right: 5%; */
 
 }
 .l{
