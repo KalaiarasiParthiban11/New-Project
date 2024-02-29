@@ -347,6 +347,9 @@ input{
     display: flex;
     /* padding-left: 35%; */
 }
+.proname{
+    font-size: 30px;
+}
 .u{
     display: none;
     flex-direction: column;
@@ -387,8 +390,9 @@ input{
     font-size: 12px;
 }
 .b{
-    width: 200px;
-    height: 45px;
+    width: 300px;
+    height: 60px;
+    border-radius: 20px;
 
 }
 .b1{
