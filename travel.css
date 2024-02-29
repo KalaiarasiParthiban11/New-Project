@@ -342,7 +342,18 @@ input{
     } */
 .navbar
 {
+    .navbar{
+        background-color:black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: sticky;
+        top: 0%;
+        width: 100%;
+        margin-left:0%;
         padding: 35px 45px;
+    }
+    
 }    
 .menu-toggle{
     display: flex;
