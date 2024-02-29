@@ -4,7 +4,8 @@
     /* font-family:Papyrus, fantasy;; */
     /* font-family: "satisfy",cursive; */
 
-}.navbar{
+}
+.navbar{
     background-color:black;
     display: flex;
     justify-content: center;
@@ -341,7 +342,7 @@ input{
     } */
 .navbar
 {
-    padding: 35px 45px;
+        padding: 35px 45px;
 }    
 .menu-toggle{
     display: flex;
