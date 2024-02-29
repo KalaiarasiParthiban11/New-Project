@@ -356,10 +356,10 @@ input{
     
     
 }    
-.menu-toggle{
+/* .menu-toggle{
     display: flex;
     padding-left: 35%;
-}
+} */
 .proname{
     font-size: 35px;
 }
@@ -367,14 +367,14 @@ input{
     display: none;
     flex-direction: column;
     position: absolute;
-    top: 80px;
+    top: 30px;
     width: 100%;
     font-size: 20px;
     margin-right: 5%;
 
 }
 .l{
-    display: inline;
+    display: block;
     color: white;
     padding: 15px 25px;
     list-style: none;
