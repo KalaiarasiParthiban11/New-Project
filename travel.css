@@ -381,6 +381,13 @@ input{
 
     justify-content: space-between;
 }
+.l:hover{
+    width: 40px;
+    height: 40px;
+    color:#23001e;
+    background-color: white;
+    font-size: 10px;
+}
 .u.active{
     display: flex;
 }
