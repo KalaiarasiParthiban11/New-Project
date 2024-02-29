@@ -332,7 +332,7 @@ input{
 
 
 
-@media screen and (max-width:450px)
+@media screen and (max-width:400px)
  {
     /* .navbar{
         display: none;
@@ -341,14 +341,14 @@ input{
     } */
 .navbar
 {
-    padding: 25px 35px;
+    padding: 35px 45px;
 }    
 .menu-toggle{
     display: flex;
     /* padding-left: 35%; */
 }
 .proname{
-    font-size: 30px;
+    font-size: 35px;
 }
 .u{
     display: none;
@@ -356,6 +356,7 @@ input{
     position: absolute;
     top: 60px;
     width: 100%;
+    font-size: 20px;
 
 }
 .u.active{
