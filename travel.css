@@ -345,7 +345,7 @@ input{
 }    
 .menu-toggle{
     display: flex;
-    /* padding-left: 35%; */
+    padding-left: 35%;
 }
 .proname{
     font-size: 35px;
