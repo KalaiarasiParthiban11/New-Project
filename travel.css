@@ -69,6 +69,57 @@
     color:#23001e;
     background-color: white;
     font-size: 20px;
+} */
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+nav{
+    background-color: black;
+    color: white;
+    display: flex;
+    position: sticky;
+    width: 100%;
+    font-size: 28px;
+    align-items: center;
+    justify-content: space-around;
+
+}
+nav li{
+    display: inline-block;
+    margin: 0 8px;
+}
+nav a{
+    text-decoration: none;
+    
+}
+nav a:hover{
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+}
+.logo-a{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+.list{
+    color: white;
+}
+.menu-line{
+    height: 3px;
+    width: 20px;
+    background-color: white;
+    margin-bottom: 3px;
+}
+.menu-toggle{
+    cursor: pointer;
+    display: none;
 }
 .img1{
     margin-left: 0%;
