@@ -419,6 +419,7 @@ input{
         padding: 10px 20px;
         background-color: white;
         box-shadow: 3px;
+        transition: none;
         
         
     }
@@ -428,6 +429,19 @@ input{
         background-color: white;
         margin-bottom: 3%;
         
+    }
+    .med-h1{
+        font-size: 25px;
+    }
+    .med-p1{
+        font-size: 25px;
+    }
+    .ii{
+        width: 100px;
+        height: 100px;
+    }
+    .foot{
+        height: 900px;
     }
 }
     
