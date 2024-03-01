@@ -460,6 +460,14 @@ input{
         font-size: 15px;
         width: 250px;
     }
+    .imgsiz{
+        width: 80px;
+        height: 100px;
+    }
+    .size{
+        width: 80px;
+        height: 100px;
+    }
 }
 /* mobile phone */
 @media screen and (min-width:320px) and (max-width:480px){
@@ -539,6 +547,10 @@ input{
         width: 200px;
     }
     .imgsiz{
+        width: 80px;
+        height: 100px;
+    }
+    .size{
         width: 80px;
         height: 100px;
     }
