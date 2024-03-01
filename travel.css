@@ -1,8 +1,7 @@
-*{
+/* *{
     margin:0;
     padding: 0%;
-    /* font-family:Papyrus, fantasy;; */
-    /* font-family: "satisfy",cursive; */
+    
 
 }
 .navbar{
@@ -21,7 +20,7 @@
     gap: 5px;
     font-weight: bolder;
     font-size: 30px;
-    /* margin-left:  5%; */
+    
     
 }
 .logo{
@@ -331,21 +330,32 @@ input{
 }
 
 
-
-
-@media screen and (max-width: 480px) and (min-width: 320px) {
-
-.ul-list{
-    display: none;
-} 
-.l{
-    display: none;
-} 
-.menu-toggle{
-    display: flex;
-}  
-
-
+@media all and (max-width:640px){
+    nav{
+        flex-direction: column;
+    }
+    nav li{
+        display: block;
+        padding: 10px 0;
+    }
+    ul{
+        text-align: center;
+        padding: 0;
+        display: none;
+    }
+    .logo{
+        align-self: flex-start;
+        margin: 10px 0px 0px 30px;
+    }
+    .menu-toggle{
+        display: block;
+        position: absolute;
+        right: 20px;
+        top: 25px;
+    }
+    .showmenu{
+        display: block;
+    }
 }
     
 
