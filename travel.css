@@ -387,6 +387,7 @@ input{
 @media all and (max-width:640px){
     nav{
         flex-direction: column;
+        height: 250px;
     }
     nav li{
         display: block;
