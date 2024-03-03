@@ -384,7 +384,7 @@ input{
 }
 
 
-@media screen and (max-width:640px) and (min-width:480px){
+/* @media screen and (max-width:640px) and (min-width:480px){
     nav{
         flex-direction: column;
         font-size: 25px;
@@ -470,7 +470,7 @@ input{
         width: 80px;
         height: 100px;
     }
-}
+} */
 /* mobile phone */
 @media screen and (max-width:480px) and (min-width:320px){
     nav{
