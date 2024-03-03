@@ -473,6 +473,10 @@ input{
 } */
 /* mobile phone */
 @media screen and (max-width:480px) and (min-width:320px){
+    body{
+        width: auto;
+        height: 110vh;
+    }
     nav{
         flex-direction: column;
     }
