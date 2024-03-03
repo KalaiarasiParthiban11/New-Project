@@ -75,6 +75,7 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+    
 
 }
 nav{
@@ -92,24 +93,26 @@ nav{
 nav li{
     display: inline-block;
     margin: 0 8px;
-    padding: 7px;
+    padding: 5px;
 }
 nav a{
     text-decoration: none;
     
 }
 nav a:hover{
-    width: 70px;
-    height: 100px;
+    width: 90px;
+    height: 130px;
     background-color: white;
     border-radius: 5px;
     color: black;
+    padding: 10px 10px;
     
 }
 .logo-h1{
     color: white;
     font-size: 25px;
     font-weight: bold;
+    font-family: "satisfy",cursive;
 }
 .list{
     color: white;
@@ -489,6 +492,11 @@ input{
         text-align: center;
         padding: 0;
         display: none;
+    }
+    nav a:hover{
+        width: 70px;
+        height: 130px;
+        background-color: white;
     }
     .logo{
         align-self: flex-start;
