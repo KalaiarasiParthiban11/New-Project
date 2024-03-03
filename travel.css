@@ -478,7 +478,7 @@ input{
     }
     nav{
         flex-direction: column;
-        font-size: 25px;
+        font-size: 15px;
         height: 300px;
     }
     nav li{
