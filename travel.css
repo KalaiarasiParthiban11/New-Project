@@ -544,11 +544,15 @@ input{
         font-size: 20px;
     }
     .nor-img{
-        width: 350px;
-        height: 395px;
+        display: none;
+    }
+    .nor-lig{
+        background-image: url('images/alaska.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     .norcont{
-        font-size: 15px;
+        font-size: 5px;
         width: 200px;
     }
     .imgsiz{
@@ -556,7 +560,7 @@ input{
         height: 100px;
     }
     .size{
-        width: 80px;
+        width: 94px;
         height: 100px;
     }
 }
