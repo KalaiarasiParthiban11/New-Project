@@ -576,6 +576,114 @@ input{
         height: 100px;
     }
 }
+
+/* tab */
+
+@media screen and (max-width:768px) and (min-width:480px){
+    body{
+        width: auto;
+        height: 110vh;
+    }
+    nav{
+        flex-direction: column;
+        font-size: 15px;
+        height: 300px;
+    }
+    nav li{
+        display: block;
+        padding: 10px 0;
+    }
+    ul{
+        text-align: center;
+        padding: 0;
+        display: none;
+    }
+    .logo{
+        align-self: flex-start;
+        margin: 10px 0px 0px 30px;
+    }
+    .menu-toggle{
+        display: block;
+        position: absolute;
+        right: 20px;
+        top: 25px;
+    }
+    .showmenu{
+        display: block;
+    }
+    .card{
+        margin-top: 5%;
+        width: 300px;
+        height: 200px;
+        display: inline-block;
+        /* margin:3%;
+        padding: 10px 20px;
+        background-color: white;
+        box-shadow: 3px; */
+        transition: none;
+        
+        
+    }
+    .container{
+        padding: 10px;
+        text-align: center;
+        background-color: white;
+        margin-bottom: 3%;
+        
+    }
+    .div4{
+        font-size: 15px;
+    }
+    .med-p{
+        font-size: 15px;
+    }
+    .med-h1{
+        font-size: 15px;
+    }
+    .med-p1{
+        font-size: 15px;
+    }
+    .ii{
+        width: 94px;
+        height: 100px;
+    }
+    .foot{
+        height: 900px;
+    }
+    .end1{
+        float: left;
+        margin: 7%;
+        margin-top: 5%;
+        color: white;
+    }
+    .f{
+        font-size: 20px;
+    }
+    .nor-img{
+        display: none;
+    }
+    .nor-lig{
+        background-image: url('images/alaska.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .norcont{
+        font-size: 5px;
+        width: 200px;
+        margin-left: 5%;
+        color: white;
+        font-weight: bold;
+        /* display: none; */
+    }
+    .imgsiz{
+        width: 94px;
+        height: 100px;
+    }
+    .size{
+        width: 94px;
+        height: 100px;
+    }
+}
     
 
     
