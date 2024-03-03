@@ -243,6 +243,7 @@ input{
 .div4{
     margin: 0%;
     margin-top: 0%;
+    color: #23001e;
     
 }
 .b1{
@@ -522,11 +523,17 @@ input{
         margin-bottom: 3%;
         
     }
+    .div4{
+        font-size: 15px;
+    }
+    .med-p{
+        font-size: 15px;
+    }
     .med-h1{
-        font-size: 25px;
+        font-size: 15px;
     }
     .med-p1{
-        font-size: 25px;
+        font-size: 15px;
     }
     .ii{
         width: 94px;
