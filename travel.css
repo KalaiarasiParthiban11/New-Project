@@ -481,7 +481,7 @@ input{
     }
     nav{
         flex-direction: column;
-        font-size: 15px;
+        font-size: 25px;
         height: 300px;
     }
     nav li{
@@ -652,7 +652,7 @@ input{
         font-size: 15px;
     }
     .ii{
-        width: 94px;
+        width: 147px;
         height: 100px;
     }
     .foot{
@@ -684,11 +684,11 @@ input{
         /* display: none; */
     }
     .imgsiz{
-        width: 94px;
+        width: 147px;
         height: 100px;
     }
     .size{
-        width: 94px;
+        width: 147px;
         height: 100px;
     }
 }
