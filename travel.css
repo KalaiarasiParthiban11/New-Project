@@ -477,6 +477,7 @@ input{
     }
     nav{
         flex-direction: column;
+        font-size: 25px;
     }
     nav li{
         display: block;
