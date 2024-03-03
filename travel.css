@@ -213,6 +213,10 @@ input{
     color: whitesmoke;
     background: linear-gradient(to right,purple,black);
 }
+.img-card{
+    width: 250px;
+    height: 150px;
+}
 
 .card{
     margin-top: 5%;
@@ -481,7 +485,7 @@ input{
     }
     nav{
         flex-direction: column;
-        font-size: 25px;
+        font-size: 20px;
         height: 300px;
         width: 100%;
         top: auto;
@@ -497,8 +501,8 @@ input{
         display: none;
     }
     nav a:hover{
-        width: 70px;
-        height: 130px;
+        width: 50px;
+        height: 110px;
         background-color: white;
     }
     .logo{
@@ -518,7 +522,7 @@ input{
         margin-top: 5%;
         width: 300px;
         height: 200px;
-        display: inline-block;
+        display: block;
         /* margin:3%;
         padding: 10px 20px;
         background-color: white;
