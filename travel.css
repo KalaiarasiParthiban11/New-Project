@@ -130,8 +130,6 @@ nav a:hover{
     border-color: white;
     border-style:groove;
     border-radius: 10%;
-    
-    
     height: 40px;
     margin-right: 0%;
 }
@@ -472,7 +470,7 @@ input{
     }
 } */
 /* mobile phone */
-@media screen and (max-width:480px) and (min-width:320px){
+@media screen and (max-width:640px) and (min-width:360px){
     body{
         width: auto;
         height: 110vh;
