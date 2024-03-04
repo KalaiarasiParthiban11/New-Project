@@ -139,7 +139,7 @@ input{
     border-radius: 5px;
     font-size: 15px;
     color: whitesmoke;
-    background: linear-gradient(to right,purple,black);
+    background: linear-gradient(to right,purple,#23001e);
 }
 .img-card{
     width: 250px;
@@ -442,6 +442,7 @@ input{
     .logo{
         align-self: flex-start;
         margin: 10px 0px 0px 30px;
+        
     }
     .menu-toggle{
         display: block;
@@ -459,19 +460,49 @@ input{
         transition: none;
     }
     .home-h1{
+        font-size: 35px;
+        color: black;
+    }
+    .div{
+        background-image: url('images/home travel2.jpeg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+    .div-h1{
+        color: white;
+        font-weight: bold;
         font-size: 25px;
     }
-    
-    
-    
-    .container{
-        
-        
-        background-color: white;
-        
-        
+    .p1{
+        color: white;
+
     }
-    .div4{
+    .span1{
+        background: linear-gradient(to top,#23001e,purple);
+    -webkit-background-clip: text ;
+    -webkit-text-fill-color: transparent;
+    font-size: 30px;
+    }
+    .b{
+        border-radius: 20px;
+        font-size: 20px;
+    }
+    .b1{
+        border-radius: 20px;
+    }
+    .event1{
+        color: white;
+        padding-top: 5%;
+    }
+    .eve-h1{
+        color: white;
+        font-size: 35px;
+    }
+    .txt{
+        width: 218px;
+    }
+     .div4{
         font-size: 15px;
         
     }
@@ -528,6 +559,12 @@ input{
     .size{
         width: 70px;
         height: 100px;
+    }
+    .bt{
+        border-radius: 20px;
+    }
+    .norlig{
+        border-radius: 20px;
     }
 }
 
