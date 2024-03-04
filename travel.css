@@ -21,6 +21,7 @@ nav li{
     display: inline-block;
     margin: 0 8px;
     padding: 5px;
+    
 }
 nav a{
     text-decoration: none;
@@ -37,7 +38,7 @@ nav a:hover{
 }
 .logo-h1{
     color: white;
-    font-size: 25px;
+    font-size: 35px;
     font-weight: bold;
     font-family: "satisfy",cursive;
 }
@@ -412,7 +413,7 @@ input{
         height: 110vh;
     }
     nav{
-        background-image: url('images/travel flight.jpg');
+        background-image: url('images/travel flight night.jpeg');
         background-repeat: no-repeat;
         background-size: cover;
         border-bottom: 1px solid #23001e;
@@ -426,6 +427,7 @@ input{
     nav li{
         display: block;
         padding: 10px 0;
+        font-size: 30px;
 
     }
     
@@ -530,7 +532,7 @@ input{
     }
     .end2{
         margin-right: 2%;
-        margin: 0;
+        margin: 2%;
         padding-top: 5%;
     }
     .f{
