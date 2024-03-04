@@ -419,7 +419,7 @@ input{
         border-bottom: 1px solid #23001e;
         flex-direction: column;
         font-size: 20px;
-        height: 300px;
+        height: 230px;
         width: 100%;
         top: auto;
     
@@ -427,7 +427,7 @@ input{
     nav li{
         display: block;
         padding: 10px 0;
-        font-size: 30px;
+        font-size: 25px;
 
     }
     
@@ -518,7 +518,7 @@ input{
         font-size: 10px;
     }
     .ii{
-        width: 75px;
+        width: 80px;
         height: 100px;
     }
     .foot{
