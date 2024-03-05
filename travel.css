@@ -224,10 +224,29 @@ input{
     background-repeat: no-repeat;
     
 }
+.form-list{
+    background-image: url('images/bangalore.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.form-lis{
+    background-image: url('images/home-travel1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
 .form1{
     margin: 0px;
     
     
+}
+.input-list{
+    padding: 7px;
+    padding-left: 9%;
+}
+.input-list1{
+    padding: 7px;
+    padding-left: 9%;
 }
 .txt{
     width: 300px;
@@ -458,8 +477,57 @@ input{
     .card{
         
         
-        display: block;
+        width: 200px;
+        height: 200px;
+        padding: 0;
         transition: none;
+        
+    }
+    .c1{
+        margin-left: 18%;
+        margin-bottom: 5%;
+    }
+    .container{
+        padding: 0;
+    }
+    .img-card{
+        width: 195px;
+        height: 180px;
+        padding: 5px;
+    }
+    .input-list{
+        padding: 30px;
+        width: 400px;
+        height: 300px;
+    }
+    .form-lish4{
+        margin-right: 15%;
+        font-size: 15px;
+    }
+
+    .input-list1{
+        padding: 10px;
+        width: 200px;
+        height: 50px;
+        margin-right: 10%;
+
+    }
+    .txt{
+        width:200px;
+        height: 200pxpx;
+        display: block;
+        margin-right: 9%;
+    }
+    .form-list{
+        /* background-image: url('images/bangalore.jpg');
+        background-size: cover;
+        background-repeat: no-repeat; */
+        height: 1500px;
+        width: auto;
+        
+    }
+    .form-h4{
+        font-size: 20px;
     }
     .home-h1{
         font-size: 35px;
@@ -492,6 +560,8 @@ input{
     }
     .b1{
         border-radius: 20px;
+        margin-right: 10%;
+        margin-bottom: 10%;
     }
     .event1{
         color: white;
@@ -512,13 +582,13 @@ input{
         font-size: 15px;
     }
     .med-h1{
-        font-size: 10px;
+        font-size: 5px;
     }
     .med-p1{
-        font-size: 10px;
+        font-size: 5px;
     }
     .ii{
-        width: 72px;
+        width: 70px;
         height: 100px;
     }
     .foot{

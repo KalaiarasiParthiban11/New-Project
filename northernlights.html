@@ -37,10 +37,11 @@
             background-color: white;
         }
         body{
-            background: url('C:/Users/User/Downloads/giphy.gif');
+            background: url('images/giphy.gif');
             background-repeat: no-repeat;
             background-size: cover;
-            height: 120vh
+            height: 150vh;
+            width: auto;
         }
         .butt{
             width: 200px;
@@ -72,40 +73,79 @@
     margin-left: 10%;
     margin-top: 5%;
 }
+/* .c1-nor{
+    background-image: url('images/giphy.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+.img-card-nor{
+    width: 250px;
+    height: 150px;
+}
+
+.card-nor{
+    margin-top: 5%;
+    width: 300px;
+    height: 200px;
+    display: inline-block;
+    margin:3%;
+    padding: 10px 20px;
+    background-color: white;
+    box-shadow: 3px;
+    transition: transform .2s;
+    
+}
+.card-nor:hover{
+    /* -ms-transform: scale(1.2); IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2);
+}
+
+.container-nor{
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+    margin-bottom: 3%;
+    
+}
 
 @media screen and (max-width:480px){
-    .image{
-        width: 400px;
-        height: 250px;
+    .card-nor{
         
+        
+        width: 200px;
+        height: 200px;
+        padding: 0;
+        transition: none;
         
     }
-    .img-nor{
-        width: 350px;
+    .c1-nor{
+        margin-left: 18%;
+        margin-bottom: 5%;
+    }
+    .container-nor{
+        padding: 0;
+    }
+    .img-card-nor{
+        width: 195px;
         height: 180px;
-
-    } 
-    .content{
-        font-size: 15px;
-        height: 100px;
-        
-       
+        padding: 5px;
     }
-    .heading{
-        font-size: 35px;
-
+    body{
+        height: 200vh;
     }
+}
     
     
    
 
-}
+
 
         
     </style>
 </head>
 
-<body style="background-color:cornflowerblue">
+<body>
         <h1 class="heading" style="color: whitesmoke; font-family:Papyrus, fantasy; margin-left: 30%; padding-top: 3%;" >Best Place To See Northern Lights</h1>
     
     
@@ -121,7 +161,7 @@
 
     <br>
     
-    <div class="second">
+    <!-- <div class="second">
         <div class="second-1">
         <div class="image">
             <img class="img-nor" src="images\download.jpg" width="300px" height="200px">
@@ -225,4 +265,96 @@
                 
             </div></div>
         </div>
+    </div> -->
+
+    <div class="c-nor">
+        <div class="c1-nor">
+            
+            
+                <div class="card-nor">
+                    <img class="img-card-nor" src="images\download.jpg">
+                    <div class="container-nor">
+                        <h4><b>Finland</b></h4>
+                        <p>1 Jan - 5 Jan  5Days</p>
+                        <p>£800</p>
+                    </div>
+                </div>
+                
+                
+                <div class="card-nor">
+                    <img class="img-card-nor" src="images\siberia,Russia.jpg">
+                    <div class="container-nor">
+                        <h4><b>Siberia,Russia</b></h4>
+                        <p>5 Jan - 10 Jan  5Days</p>
+                        <p>€800</p>
+                    </div>
+                </div>
+                
+                <div class="card-nor">
+                    <img class="img-card-nor" src="images\alaska.jpg">
+                    <div class="container-nor">
+                        <h4><b>Alaska</b></h4>
+                        <p>10 Jan - 15 Jan  5Days</p>
+                        <p>₹20,000</p>
+                    </div>           
+        </div>
+    </div>
+    <div class="c-nor">
+        <div class="c1-nor">
+                <div class="card-nor">
+                    <img class="img-card-nor" src="images\iceland.jpg">
+                    <div class="container-nor">
+                        <h4><b>Iceland</b></h4>
+                        <p>1 Jan - 5 Jan  5Days</p>
+                        <p>₹20,000</p>
+                    </div>
+                </div>
+                
+                <div class="card-nor">
+                    <img class="img-card-nor" src="images\Tromso, Norway.jpg">
+                    <div class="container-nor">
+                        <h4><b>Tromso,Norway</b></h4>
+                        <p>5 Jan - 10 Jan  5Days</p>
+                        <p>€800</p>
+                    </div>
+                </div>
+                
+                <div class="card-nor">
+                    <img class="img-card-nor" src="images\kulusuk, greenland.jpg">
+                    <div class="container-nor">
+                        <h4><b>Kulusuk,Greenland</b></h4>
+                        <p>10 Jan - 15 Jan  5Days</p>
+                        <p>₹20,000</p>
+                    </div>           
+        </div></div>
+    </div>
+    <div class="c-nor">
+        <div class="c1-nor">
+                <div class="card">
+                    <img class="img-card-nor" src="images\scotland.jpg">
+                    <div class="container-nor">
+                        <h4><b>Scotland</b></h4>
+                        <p>1 Jan - 5 Jan  5Days</p>
+                        <p>₹20,000</p>
+                    </div>
+                </div>
+                
+                <div class="card-nor">
+                    <img class="img-card-nor" src="images\swedon.jpg">
+                    <div class="container-nor">
+                        <h4><b>Swedon</b></h4>
+                        <p>5 Jan - 10 Jan  5Days</p>
+                        <p>₹20,000</p>
+                    </div>
+                </div>
+                
+                <div class="card-nor">
+                    <img class="img-card-nor" src="images\Reykjavik,iceland.jpg">
+                    <div class="container-nor">
+                        <h4><b>Reykjavik,Iceland</b></h4>
+                        <p>10 Jan - 15 Jan  5Days</p>
+                        <p>₹20,000</p>
+                    </div></div>           
+        </div><br><br><br>
+        <center><a href="tra-list.html"><button class="bt"><b>Book Your Destination</b></button></a></center><br><br><br>
     </div>
