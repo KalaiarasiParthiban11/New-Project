@@ -142,6 +142,156 @@ input{
     color: whitesmoke;
     background: linear-gradient(to right,purple,#23001e);
 }
+.wrapper{
+    max-height: 250px;
+    border: 2px soild #ddd;
+    display: flex;
+    overflow: auto;
+    background-color: #7BA5D5;
+}
+.wrapper::-webkit-scrollbar{
+    width: 0;
+}
+.wrapper .item{
+    margin-top: 5%;
+    min-width: 180px;
+    height: 180px;
+    line-height: 180px;
+    text-align: center;
+    background-color: #ddd;
+    margin-right: 3px;
+    padding: 10px 15px;
+}
+.wrapper .item1{
+    margin-top: 5%;
+    min-width: 180px;
+    height: 180px;
+    line-height: 180px;
+    text-align: center;
+    background-color: #ddd;
+    margin-right: 3px;
+}
+.wrapper .item2{
+    margin-top: 5%;
+    min-width: 180px;
+    height: 180px;
+    line-height: 180px;
+    text-align: center;
+    background-color: #ddd;
+    margin-right: 3px;
+}
+.wrapper .item3{
+    margin-top: 5%;
+    min-width: 180px;
+    height: 180px;
+    line-height: 180px;
+    text-align: center;
+    background-color: #ddd;
+    margin-right: 3px;
+}
+.wrapper .item4{
+    margin-top: 5%;
+    min-width: 180px;
+    height: 180px;
+    line-height: 180px;
+    text-align: center;
+    background-color: #ddd;
+    margin-right: 3px;
+}
+.wrapper .item5{
+    margin-top: 5%;
+    min-width: 180px;
+    height: 180px;
+    line-height: 180px;
+    text-align: center;
+    background-color: #ddd;
+    margin-right: 3px;
+}
+.wrapper .item6{
+    margin-top: 5%;
+    min-width: 180px;
+    height: 180px;
+    line-height: 180px;
+    text-align: center;
+    background-color: #ddd;
+    margin-right: 3px;
+}
+.wrapper .item7{
+    margin-top: 5%;
+    min-width: 180px;
+    height: 180px;
+    line-height: 180px;
+    text-align: center;
+    background-color: #ddd;
+    margin-right: 3px;
+}
+.wrapper .item8{
+    margin-top: 5%;
+    min-width: 180px;
+    height: 180px;
+    line-height: 180px;
+    text-align: center;
+    background-color: #ddd;
+    margin-right: 5px;
+}
+.item{
+    background-image: url('images/paris 1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px 5px;
+}
+.item1{
+    background-image: url('images/paris 1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px 5px;
+}
+.item2{
+    background-image: url('images/paris 1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px 5px;
+}
+.item3{
+    background-image: url('images/paris 1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px 5px;
+}
+.item4{
+    background-image: url('images/paris 1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px 5px;
+}
+.item5{
+    background-image: url('images/paris 1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px 5px;
+}
+.item6{
+    background-image: url('images/paris 1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px 5px;
+}
+.item7{
+    background-image: url('images/paris 1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px 5px;
+}
+.item8{
+    background-image: url('images/paris 1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px 5px;
+}
+.wrap-img{
+    width: 170px;
+    height: 170px;
+}
 .img-card{
     width: 250px;
     height: 150px;
