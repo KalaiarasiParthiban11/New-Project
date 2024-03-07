@@ -67,20 +67,34 @@ nav a:hover{
 .lo{
     margin-right: 9%;
 }
+.homep-h1{
+    padding-top: 5%; 
+    font-weight: bolder; 
+    font-size: 30px; 
+    color: white;
+}
+.homep-p{
+    font-size: 40px;
+    background: linear-gradient(to top,purple,black);
+    -webkit-background-clip: text ;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
 
 .span1{
     
     background: linear-gradient(to top,purple,black);
     -webkit-background-clip: text ;
     -webkit-text-fill-color: transparent;
+    font-weight: bold;
 }
 .event{
     /* background-color:thistle; */
     margin: 0%;
-    background-image: url('images/nature-bridge-sky-city-wallpaper-preview.jpg');
+    background-image: url('images/travel road.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    height: 300px;
+    height: 350px;
     
 
 }
@@ -109,7 +123,7 @@ input{
 
 .div{
     margin: 0%;
-    background-image: url('images/bangalore.jpg');
+    background-image: url('images/travel road.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     height: 500px;
@@ -121,6 +135,17 @@ input{
 }
 .p1{
     padding: 3%;
+    color: white;
+}
+.homep-h3{
+    font-size: 30px;
+    color: white;
+}
+.home-h1{
+    color: white;
+    font-weight: bolder;
+    font-size:45px;
+    margin-right: 7%;
 }
 .p2{
     padding: 10px;
@@ -137,7 +162,8 @@ input{
     width: 250px;
     font-weight: bold;
     height: 50px;
-    border-radius: 5px;
+    border-radius: 15px;
+    border: 0;
     font-size: 15px;
     color: whitesmoke;
     background: linear-gradient(to right,purple,#23001e);
@@ -154,9 +180,9 @@ input{
 }
 .wrapper .item{
     margin-top: 5%;
-    min-width: 180px;
-    height: 180px;
-    line-height: 180px;
+    min-width: 250px;
+    height: 250px;
+    line-height: 250px;
     text-align: center;
     background-color: #ddd;
     margin-right: 3px;
@@ -295,6 +321,9 @@ input{
 .img-card{
     width: 250px;
     height: 150px;
+}
+.c1{
+    margin-left: 5%;
 }
 
 .card{
@@ -458,6 +487,10 @@ input{
     padding-right: 5%;
 
 }
+.eve-h1{
+    color: white;
+    font-size: 40px;
+}
 #city{
     padding: 10px 20px;
     padding-left: 9%;
@@ -582,13 +615,14 @@ input{
         height: 110vh;
     }
     nav{
-        background-image: url('images/travel flight night.jpeg');
+        background-image: url('images/travel nav.jpg');
         background-repeat: no-repeat;
         background-size: cover;
-        border-bottom: 1px solid #23001e;
+        background-color:#7BA5D5;
+        border-bottom: 1px solid white;
         flex-direction: column;
         font-size: 20px;
-        height: 230px;
+        height: 300px;
         width: 100%;
         top: auto;
     
@@ -597,7 +631,12 @@ input{
         display: block;
         padding: 10px 0;
         font-size: 25px;
+        
 
+    }
+    .list{
+        /* color: black; */
+        font-weight: bold;
     }
     
     ul{
@@ -607,8 +646,9 @@ input{
     }
     nav a:hover{
         width: 50px;
-        height: 110px;
+        height: 100px;
         background-color: white;
+        color: #23001e;
     }
     .logo{
         align-self: flex-start;
@@ -620,9 +660,28 @@ input{
         position: absolute;
         right: 20px;
         top: 25px;
+        
+    }
+    .menu-line{
+        background-color: black;
+        height: 5px;
+        width: 24px;
     }
     .showmenu{
         display: block;
+    }
+    .homep-h1{
+        padding-top: 15%;
+        font-size: 20px;
+    }
+    .homep-p{
+        font-size: 30px;
+    }
+    .p1{
+        font-size: 20px;
+    }
+    .homep-h3{
+        font-size: 23px;
     }
     .card{
         
@@ -631,6 +690,7 @@ input{
         height: 200px;
         padding: 0;
         transition: none;
+        margin-left: 5%;
         
     }
     .c1{
@@ -680,11 +740,12 @@ input{
         font-size: 20px;
     }
     .home-h1{
-        font-size: 35px;
-        color: black;
+        font-size: 30px;
+        color: white;
+        margin-right: 15%;
     }
     .div{
-        background-image: url('images/travel gif.gif');
+        background-image: url('images/travel road.jpg');
         background-repeat: no-repeat;
         background-size: cover;
         
@@ -706,12 +767,14 @@ input{
     }
     .b{
         border-radius: 20px;
-        font-size: 20px;
+        font-size: 15px;
     }
     .b1{
         border-radius: 20px;
         margin-right: 10%;
         margin-bottom: 10%;
+        border: 0;
+        margin-left: 10%;
     }
     .event1{
         color: white;
@@ -719,10 +782,12 @@ input{
     }
     .eve-h1{
         color: white;
-        font-size: 35px;
+        font-size: 30px;
+        margin-right: 25%;
     }
     .txt{
-        width: 218px;
+        width: 220px;
+        margin-left: 9%;
     }
      .div4{
         font-size: 15px;
@@ -738,11 +803,11 @@ input{
         font-size: 5px;
     }
     .ii{
-        width: 70px;
+        width: 87px;
         height: 100px;
     }
     .foot{
-        height: 800px;
+        height: 700px;
     }
     .end1{
         float: left;
@@ -775,18 +840,20 @@ input{
         /* display: none; */
     }
     .imgsiz{
-        width: 70px;
+        width: 87px;
         height: 100px;
     }
     .size{
-        width: 70px;
+        width: 87px;
         height: 100px;
     }
     .bt{
         border-radius: 20px;
+        border: 0;
     }
     .norlig{
         border-radius: 20px;
+        border: 0;
     }
 }
 
