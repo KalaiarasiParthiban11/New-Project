@@ -419,18 +419,32 @@ input{
     
     
 }
+.form-h3{
+    color: white;
+    font-size: 25px;
+}
 .input-list{
     padding: 7px;
     padding-left: 9%;
 }
 .input-list1{
     padding: 7px;
+    height: 60px;
+    border-radius: 10px;
     padding-left: 9%;
+    border: 5px solid #957A8D;
 }
 .txt{
     width: 300px;
     height: 70px;
     display: block;
+}
+.txt1{
+    width: 300px;
+    height: 70px;
+    display: block;
+    border: 5px solid #957A8D;
+    border-radius: 10px;
 }
 .e{
     margin: 0%;
@@ -672,16 +686,16 @@ input{
     }
     .homep-h1{
         padding-top: 15%;
-        font-size: 20px;
+        font-size: 17px;
     }
     .homep-p{
         font-size: 30px;
     }
     .p1{
-        font-size: 20px;
+        font-size: 17px;
     }
     .homep-h3{
-        font-size: 23px;
+        font-size: 17px;
     }
     .card{
         
@@ -720,6 +734,7 @@ input{
         width: 200px;
         height: 50px;
         margin-right: 10%;
+        border: 2px solid #957A8D;
 
     }
     .txt{
@@ -727,6 +742,19 @@ input{
         height: 200pxpx;
         display: block;
         margin-right: 9%;
+    }
+    .txt1{
+        width:200px;
+        height: 200pxpx;
+        display: block;
+        margin-right: 9%;
+        border: 2px solid #957A8D;
+    }
+    .form-h3{
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+
     }
     .form-list{
         /* background-image: url('images/bangalore.jpg');
@@ -771,7 +799,7 @@ input{
     }
     .b1{
         border-radius: 20px;
-        margin-right: 10%;
+        margin-right: 16%;
         margin-bottom: 10%;
         border: 0;
         margin-left: 10%;
@@ -803,7 +831,7 @@ input{
         font-size: 5px;
     }
     .ii{
-        width: 75px;
+        width: 73px;
         height: 100px;
     }
     .foot{
@@ -840,11 +868,11 @@ input{
         /* display: none; */
     }
     .imgsiz{
-        width: 75px;
+        width: 73px;
         height: 100px;
     }
     .size{
-        width: 75px;
+        width: 73px;
         height: 100px;
     }
     .bt{
