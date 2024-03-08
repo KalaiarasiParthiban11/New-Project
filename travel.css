@@ -91,16 +91,44 @@ nav a:hover{
 .event{
     /* background-color:thistle; */
     margin: 0%;
-    background-image: url('images/travel road.jpg');
+    background-image: url('images/bluish nature.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    height: 350px;
+    height: 400px;
+    width: 100%;
+    /* overflow: hidden;
+    position: relative;
+    animation: slider 10s infinite ease-in-out; */
     
 
 }
 .event1{
     justify-content: center;
+    /* position: absolute; */
+    
+
 }
+/* @keyframes slider{
+    0%{
+        background-image: url('images/travel road.jpg');
+    }
+    20%{
+        background-image: url('images/bluish nature 1.jpg');
+    }
+    40%{
+        background-image: url('images/bluish nature 2.jpg');
+    }
+    60%
+    {
+        background-image: url('images/bluish nature 1.jpg');
+    }
+    80%{
+        background-image: url('images/bluish nature 3.jpg');
+    }
+    100%{
+        background-image: url('images/bluish nature 1.jpg');
+    }
+} */
 .c{
     margin: 0%;
     background-color: #7BA5D5;
@@ -533,6 +561,24 @@ input{
     float: left;
     width: 450px;
 }
+#icon{
+    cursor: pointer;
+}
+#icon1{
+    cursor: pointer;
+}
+#icon2{
+    cursor: pointer;
+}
+#icon:hover{
+    font-size: 30px;
+}
+#icon1:hover{
+    font-size: 30px;
+}
+#icon2:hover{
+    font-size: 30px;
+}
 
 
 /* @media screen and (max-width:640px) and (min-width:480px){
@@ -633,7 +679,7 @@ input{
         background-repeat: no-repeat;
         background-size: cover;
         background-color:#7BA5D5;
-        border-bottom: 1px solid white;
+        /* border-bottom: 1px solid white; */
         flex-direction: column;
         font-size: 20px;
         height: 300px;
@@ -705,6 +751,7 @@ input{
         padding: 0;
         transition: none;
         margin-left: 5%;
+        cursor: pointer;
         
     }
     .c1{
@@ -833,6 +880,7 @@ input{
     .ii{
         width: 73px;
         height: 100px;
+        cursor: pointer;
     }
     .foot{
         height: 900px;
@@ -870,18 +918,22 @@ input{
     .imgsiz{
         width: 73px;
         height: 100px;
+        cursor: pointer;
     }
     .size{
         width: 73px;
         height: 100px;
+        cursor: pointer;
     }
     .bt{
         border-radius: 20px;
         border: 0;
+        cursor: pointer;
     }
     .norlig{
         border-radius: 20px;
         border: 0;
+        cursor: pointer;
     }
 }
 
