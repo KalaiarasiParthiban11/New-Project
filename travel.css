@@ -884,7 +884,8 @@ input{
         margin-right: 16%;
         margin-bottom: 10%;
         border: 0;
-        margin-left: 10%;
+        width: 200px;
+        margin-left: 13%;
     }
     .event1{
         color: white;
