@@ -74,11 +74,13 @@ nav a:hover{
     color: white;
 }
 .homep-p{
-    font-size: 40px;
-    background: linear-gradient(to top,purple,black);
+    font-size: 43px;
+    /* background: linear-gradient(to top,purple,black);
     -webkit-background-clip: text ;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent; */
     font-weight: bold;
+    color: white;
+    
 }
 
 .span1{
@@ -108,6 +110,14 @@ nav a:hover{
     
 
 }
+.body-nor{
+    
+    background: url('images/northern.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    width: 100%;
+}
 /* @keyframes slider{
     0%{
         background-image: url('images/travel road.jpg');
@@ -133,10 +143,10 @@ nav a:hover{
     margin: 0%;
     background-color: #7BA5D5;
     margin-top: 0%;
-    
-    
-  
 }
+/* .c-nor{
+
+} */
 
 .navbar .div{
 
@@ -168,6 +178,7 @@ input{
 .homep-h3{
     font-size: 30px;
     color: white;
+    margin-top: 13%;
 }
 .home-h1{
     color: white;
@@ -194,7 +205,20 @@ input{
     border: 0;
     font-size: 15px;
     color: whitesmoke;
-    background: linear-gradient(to right,purple,#23001e);
+    background-color: #39a7ff;
+    /* background: linear-gradient(to right,purple,#23001e); */
+}
+.b-nor{
+    width: 250px;
+    margin-top: 5%;
+    font-weight: bold;
+    height: 50px;
+    border-radius: 15px;
+    border: 1px solid white;
+    font-size: 15px;
+    color: whitesmoke;
+    /* background-color: #39a7ff; */
+    background: linear-gradient(to right,#3652AD,#3C0753,#3B3486);
 }
 .wrapper{
     max-height: 250px;
@@ -392,7 +416,7 @@ input{
 .b1{
     width: 250px;
     height: 50px;
-    border-radius: 7px;
+    border-radius: 20px;
     background-color: #23001e;
     color: white;
     font-size: 15px;
@@ -404,7 +428,7 @@ input{
     height: 60px;
     background-color: #23001e;
     color: white;
-    border-radius: 5px;
+    border-radius: 20px;
     font-size: 20px;
     
     
@@ -418,19 +442,19 @@ input{
 .bt{
     width: 250px;
     height: 60px;
-    border-radius: 5%;
+    border-radius: 20px;
     background-color:#23001e;
     color: white;
     font-weight: bold;
     font-size: 15px;
     
 }
-.form{
+/* .form{
     background-image: url('images/bangalore.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     
-}
+} */
 .form-list{
     background-image: url('images/bangalore.jpg');
     background-size: cover;
@@ -548,7 +572,7 @@ input{
     height: 60px;
     margin-left: 43%;
     margin-top: 10%;
-    border-radius: 5px;
+    border-radius: 20px;
     background-color: #23001e;
     color: white;
     font-size: 20px;
