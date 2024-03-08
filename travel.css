@@ -110,6 +110,13 @@ nav a:hover{
     
 
 }
+.event1-nor{
+    border: 2px solid white;
+    margin-left: 15%;
+    margin-right: 15%;
+    height: 300px;
+    width: 300px;
+}
 .body-nor{
     
     background: url('images/northern.jpg');
@@ -722,6 +729,9 @@ input{
         /* color: black; */
         font-weight: bold;
     }
+    .logo-h1{
+        font-size: 40px;
+    }
     
     ul{
         text-align: center;
@@ -737,6 +747,7 @@ input{
     .logo{
         align-self: flex-start;
         margin: 10px 0px 0px 30px;
+        
         
     }
     .menu-toggle{
