@@ -150,6 +150,7 @@ nav a:hover{
     margin: 0%;
     background-color: #7BA5D5;
     margin-top: 0%;
+    
 }
 /* .c-nor{
 
@@ -165,6 +166,7 @@ input{
     padding: 7px;
     padding-left: 9%;
 }
+
 
 .div{
     margin: 0%;
@@ -384,6 +386,38 @@ input{
 .c1{
     margin-left: 5%;
 }
+.c-home{
+    height: 500px;
+    background-color:#7BA5D5;
+}
+.card-home{
+    
+    display: inline-block;
+    width: 300px;
+    height: 350px;
+    background-color: white;
+    margin-left: 7%;
+    border: 2px solid white;
+}
+.img-cardhome{
+    width: 295px;
+    height: 250px;
+}
+.container-home{
+    
+    height: 200px;
+    
+}
+.bt-home{
+    width: 100px;
+    height: 50px;
+    background-color: #39a7ff;
+    color: white;
+    border: 0;
+    border-radius: 15px;
+    margin-left: 35%;
+    margin-top: 5%;
+}
 
 .card{
     margin-top: 5%;
@@ -475,6 +509,13 @@ input{
 }
 .form1{
     margin: 0px;
+    /* border: 3px solid white;
+    width: 400px;
+    margin-left: 35%;
+    background-image: url('images/blue natrure.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; */
+    
     
     
 }
@@ -610,6 +651,17 @@ input{
 #icon2:hover{
     font-size: 30px;
 }
+.nav-search{
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    border: 0;
+}
+.eve-eve{
+    color: white;
+    font-size: 30px;
+    padding-top: 7%;
+}
 
 
 /* @media screen and (max-width:640px) and (min-width:480px){
@@ -705,6 +757,15 @@ input{
         width: auto;
         height: 110vh;
     }
+    .nav-search{
+        display: none;
+    }
+    /* .home-bi{
+        background-image: url('images/travel nav.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    } */
     nav{
         background-image: url('images/travel nav.jpg');
         background-repeat: no-repeat;
@@ -770,7 +831,7 @@ input{
         font-size: 17px;
     }
     .homep-p{
-        font-size: 30px;
+        font-size: 35px;
     }
     .p1{
         font-size: 17px;
@@ -778,6 +839,13 @@ input{
     .homep-h3{
         font-size: 17px;
     }
+    .bt-home{
+        width: 80px;
+        height: 40px;
+        
+        
+    }
+    
     .card{
         
         
@@ -801,6 +869,7 @@ input{
         height: 180px;
         padding: 5px;
     }
+    
     .input-list{
         padding: 30px;
         width: 400px;
@@ -929,7 +998,8 @@ input{
     }
     .end2{
         margin-right: 2%;
-        margin: 2%;
+        margin: 4%;
+        
         padding-top: 5%;
     }
     .f{
@@ -964,12 +1034,17 @@ input{
     .bt{
         border-radius: 20px;
         border: 0;
+       width: 190px;
         cursor: pointer;
+        margin-right: 5%;
     }
     .norlig{
         border-radius: 20px;
         border: 0;
         cursor: pointer;
+    }
+    .eve-eve{
+        padding-top: 13%;
     }
 }
 
@@ -984,7 +1059,7 @@ input{
         background-image: url('images/travel flight.jpg');
         background-repeat: no-repeat;
         background-size: cover;
-        border-bottom: 1px solid #23001e;
+        /* border-bottom: 1px solid #23001e; */
         flex-direction: column;
         font-size: 20px;
         height: 300px;
@@ -997,6 +1072,9 @@ input{
         text-align: center;
         padding: 0;
         display: none;
+    }
+    .list{
+        font-size: 30px;
     }
     .logo{
         align-self: flex-start;
