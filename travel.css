@@ -462,6 +462,7 @@ input{
     color: white;
     font-size: 15px;
     font-weight: bold;
+    border: 0;
 }
 .bt1{
     margin-left: 40%;
